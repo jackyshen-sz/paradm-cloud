@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF" monitorInterval="1800">
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<RollingFile name="RollingFile" fileName="D:/ParaDM/log/DebugLog_UserServer.txt" filePattern="D:/ParaDM/log/$${date:yyyy-MM}/UserServer-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout pattern="%d{yyyy-MM-dd 'at' HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n" />
+			<SizeBasedTriggeringPolicy size="50MB" />
+			<DefaultRolloverStrategy max="50" />
+		</RollingFile>
+	</appenders>
+	<!-- Application Loggers -->
+	<loggers>
+		<logger name="com.paradm" level="debug" additivity="false">
+			<appender-ref ref="Console" />
+			<appender-ref ref="RollingFile" />
+		</logger>
+
+		<logger name="org.springframework" level="info" additivity="false">
+			<appender-ref ref="Console" />
+		</logger>
+		
+		<!-- Root Logger -->
+		<root level="error">
+			<appender-ref ref="console" />
+			<appender-ref ref="RollingFile" />
+		</root>
+	</loggers>
+</configuration>  

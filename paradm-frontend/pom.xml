@@ -9,14 +9,14 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>paradm-servers</artifactId>
+	<artifactId>paradm-frontend</artifactId>
 	<packaging>pom</packaging>
 
-	<name>paradm-servers</name>
-	<description>ParaDM Servers</description>
+	<name>paradm-frontend</name>
+	<description>ParaDM Frontend</description>
 	
 	<modules>
-		<module>eureka-server</module>
-		<module>config-server</module>
+		<module>frontend-vue</module>
+		<module>frontend-thymeleaf</module>
 	</modules>
 </project>

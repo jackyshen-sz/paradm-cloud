@@ -20,6 +20,8 @@
 	<modules>
 		<module>paradm-servers</module>
     <module>paradm-commons</module>
+    <module>paradm-frontend</module>
+    <module>paradm-backend</module>
   </modules>
 
 	<properties>

@@ -9,14 +9,14 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>paradm-servers</artifactId>
+	<artifactId>paradm-backend</artifactId>
 	<packaging>pom</packaging>
 
-	<name>paradm-servers</name>
-	<description>ParaDM Servers</description>
+	<name>paradm-backend</name>
+	<description>ParaDM Backend</description>
 	
 	<modules>
-		<module>eureka-server</module>
-		<module>config-server</module>
+		<module>uaa-service</module>
+		<module>user-service</module>
 	</modules>
 </project>
