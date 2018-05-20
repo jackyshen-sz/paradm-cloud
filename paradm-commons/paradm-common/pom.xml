@@ -13,7 +13,7 @@
   <packaging>jar</packaging>
   
   <name>paradm-common</name>
-  <description>ParaDM Common</description>
+  <description>ParaDM Common source</description>
   
   <dependencies>
   	<dependency>
