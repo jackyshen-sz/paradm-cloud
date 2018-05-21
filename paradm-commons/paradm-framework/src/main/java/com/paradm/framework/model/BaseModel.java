@@ -1,4 +1,4 @@
-package com.paradm.model;
+package com.paradm.framework.model;
 
 import java.io.Serializable;
 

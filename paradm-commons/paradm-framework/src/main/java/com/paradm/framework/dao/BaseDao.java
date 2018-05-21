@@ -1,4 +1,4 @@
-package com.paradm.dao;
+package com.paradm.framework.dao;
 
 import java.io.Serializable;
 
