@@ -1,0 +1,14 @@
+{
+	"properties": [
+		{
+			"name": "snowflake-id-worker.machine-id",
+			"type": "java.lang.Long",
+			"description": "machineId(0~31)"
+		},
+		{
+			"name": "snowflake-id-worker.datacenter-id",
+			"type": "java.lang.Long",
+			"description": "datacenterId(0~31)"
+		}
+	]
+}
