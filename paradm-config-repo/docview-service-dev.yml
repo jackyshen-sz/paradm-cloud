@@ -1,6 +1,1 @@
-spring:
-  application:
-    name: docview-service
 
-server:
-  port: 8201
