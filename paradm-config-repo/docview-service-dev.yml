@@ -8,3 +8,9 @@ spring:
     username: admin
     password: admin
     virtual-host: /
+
+docview:
+  sourceFolder: D:\\sourceFolder
+  targetFolder: D:\\targetFolder
+  exePath: D:\\soft\\PDFConversion\\Conversion.exe
+  everyDayErrorNo: 3
