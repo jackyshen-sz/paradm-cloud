@@ -1,6 +1,9 @@
-spring:
-  application:
-    name: docview-service
-
 server:
   port: 8200
+  
+spring:
+  rabbitmq:
+    host: 192.168.20.6
+    port: 5672
+    username: admin
+    password: admin
