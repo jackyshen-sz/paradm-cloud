@@ -5,4 +5,4 @@ spring:
     username: admin
     password: admin
     virtual-host: /
-    publisher-confirms: false
+    publisher-confirms: true
